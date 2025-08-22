@@ -1,0 +1,39 @@
+{% load static %}
+<form class="cell grid-x grid-margin-x" method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <div class="cell large-5">
+        <div class="grid-y grid-margin-x">
+            <div class="cell large-4">
+                <label>Nombre
+                    {{ form.nombre }}
+                </label>
+            </div>
+            <div class="cell large-4">
+                <label>Telefono
+                    {{ form.telefono }}
+                </label>
+            </div>
+            <div class="cell large-2" style="width: 60px;">
+                <label>Edad
+                    {{ form.edad }}
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="cell large-5">
+        <div class="grid-y grid-margin-x">
+            <div class="cell large-4">
+                <label>Apellidos
+                    {{ form.apellidos }}
+                </label>
+            </div>
+            <div class="cell large-4">
+                <label>Nacionalidad
+                    {{ form.nacionalidad }}
+                </label>
+            </div><br/>
+            <div class="cell large-2">
+                <button class="success button" type="submit">Guardar</button>
+            </div>
+        </div>
+    </div>
+</form>

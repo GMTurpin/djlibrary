@@ -1,0 +1,60 @@
+{% load static %}
+<form class="cell grid-x grid-margin-x" method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <div class="cell large-6">
+        <div class="cell large-3">
+            <label>Titulo
+                {{ form.titulo }}
+            </label>
+        </div>
+        <div class="cell large-3">
+            <label>Categoría
+                {{ form.categoria }}
+            </label>
+        </div>
+        <div class="cell large-3">
+            <label>Autores
+                {{ form.autores }}
+            </label>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-5">
+                <label>Fecha publicación
+                    {{ form.fecha_publicacion }}
+                </label>
+            </div>
+            <div class="cell large-2">
+                <label>Stock
+                    {{ form.stock }}
+                </label>
+            </div>
+        </div>
+        <div class="cell large-3">
+            <label>Sinopsis
+                {{ form.sinopsis }}
+            </label>
+        </div>
+        <div class="cell large-3">
+            <label>Portada
+                {{ form.portada }}
+            </label>
+        </div>
+        <div class="cell large-3">
+            <button class="submit success button">Guardar</button>
+        </div>
+    </div>
+    <div class="cell large-6">
+        <div class="grid-y grid-margin-x" style="margin-top: 8%">
+            <div class="cell large-6 callout secondary" style="font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif">
+                <div class="card" style="width: 500px;">
+                  <div class="card-divider">
+                      <h4 style="font-family: Cambria; color: #2754e6">Ubicación por categorías</h4>
+                  </div>
+                       <img src="{% static '/img/mano_libro.jpg' %}" alt="Interior de Biblioteca">
+                  <div class="card-section">
+                    <p>Busque su libro ordenado por categorías</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %} Registro de lectores {% endblock title%}
+
+{% block content %}
+  {% include 'includes/header.html' %}
+<div class ="grid-x grid-margin-x" style="background-color: #d9aaf4">
+    <div class="cell large-7">
+        <h1>Registro de lectores</h1>
+    </div>
+    <div class="cell large-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        <form class="cell grid-x grid-margin-x" style="margin-top:8%" method="GET">{% csrf_token %}
+            <div class="cell large-8">
+                <input type="text" id="kword" name="kword" placeholder="Buscar lector">
+            </div>
+            <div class="cell large-2">
+                <button class="success button" type="submit">Buscar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="grid-x grid-padding-x cell large-12" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+    <div class="cell large-12">
+        <table>
+            <thead>
+                <tr>
+                    <th>Indice</th>
+                    <th>Lector</th>
+                    <th>Nacionalidad</th>
+                    <th>Edad</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+               {% for lector in lista_lectores %}
+                <tr>
+                    <td>{{ lector.id }}</td>
+                    <td>{{ lector.nombre }} {{ lector.apellidos }}</td>
+                    <td>{{ lector.nacionalidad }}</td>
+                    <td>{{ lector.edad }}</td>
+                    <td><a class="button warning" href="{% url 'lector_app:lector_detalle' lector.id %}">Ficha</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <hr>
+        {% include 'includes/pagination.html' %}
+    </div>
+</div>
+{% endblock content %}

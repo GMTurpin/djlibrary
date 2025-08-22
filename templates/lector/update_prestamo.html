@@ -1,0 +1,22 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+    Actualizar préstamo
+{% endblock title %}
+
+{%  block content %}
+{%  include 'includes/header.html' %}
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x" style="background-color: #FFE4C4">
+        <div class="cell large-9">
+            <h1>Actualizar datos de préstamo</h1>
+            <h3>Fecha de hoy   {% now "d-m-Y" %}</h3>
+        </div>
+        <div class="cell">
+            {%  include 'includes/editprestamo.html' %}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

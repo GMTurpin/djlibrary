@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/personal.css' %}">
+    <title>{% block title %} {% endblock title %}</title>
+</head>
+<body>
+    {% block content %}
+
+    {% endblock %}
+    <script src="{% static 'js/vendor/jquery.js' %}"></script>
+    <script src="{% static 'js/vendor/what-input.js' %}"></script>
+    <script src="{% static 'js/vendor/foundation.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    {%  if messages %}
+        {% for message in messages %}
+            <script>
+                Swal.fire({
+                    icon: '{{ message.tags }}',
+                    title: '{{ message }}',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            </script>
+        {% endfor %}
+    {% endif %}
+
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>

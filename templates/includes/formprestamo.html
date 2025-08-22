@@ -1,0 +1,25 @@
+{% load static %}
+<form method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <div class="grid-x grid-margin-x">
+        <div class="cell large-6">
+            <div class="cell">
+                <label>Libro
+                    {{ form.libro }}
+                </label>
+            </div>
+            <div class="cell">
+                <label>Lector
+                    {{ form.lector }}
+                </label>
+            </div>
+            <div class="cell large-5">
+                <button class="success button" type="submit">Registrar</button>
+            </div>
+        </div>
+        <div class="cell large-6">
+            <div class="cell callout secondary">
+                 <img src="{% static '/img/registro.jpg' %}" alt="Interior de Biblioteca">
+            </div>
+        </div>
+    </div>
+</form>

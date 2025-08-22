@@ -1,0 +1,29 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+Eliminar empleado
+{% endblock title %}
+
+{%  block content %}
+{%  include 'includes/header.html' %}
+
+    <div class="grid-container" style="width: 50%;">
+        <div class="grid-x grid-padding-x" style="background-color: #e1c4ff; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+            <h1 class="cell">Eliminar Libro</h1>
+            <div class="cell">
+                <form class="cell" method="post">{% csrf_token %}
+                    <div class="callout secondary">
+                        <h5>Confirme que desea eliminar este Libro</h5>
+                        {{ object.id }} - {{ object.titulo }}
+                        <p>Cuando se elimine el libro también se eliminarán todos sus datos relacionados</p>
+                        <div class="cell">
+                            <button type="submit" class="alert button">Eliminar</button>
+                            <a class="button" href="{% url 'libro_app:libros' %}">Cancelar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

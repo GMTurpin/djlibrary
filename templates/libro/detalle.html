@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %} Detalle de libro {% endblock %}
+
+{% block content %}
+    {%  include 'includes/header.html' %}
+<div class="grid-container">
+  <div class ="grid-x grid-margin-x" style="background-color: #FFE4C4">
+    <h1>Detalle de libro</h1>
+  </div>
+  <div class="cell callout grid-x grid-margin-x">
+    <div class="cell large-12">
+      <table>
+        <thead style="background-color: #FFD700">
+          <tr>
+            <th style="width: 45%">Datos del libro</th>
+            <th style="width: 25%">Autores</th>
+            <th>Portada</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top">
+              <p><strong>Titulo: </strong>{{ libro.titulo }}</p>
+              <p><strong>Fecha de publicacion: </strong>{{ libro.fecha_publicacion }}</p>
+              <p><strong>Categoría: </strong>{{ libro.categoria }}</p>
+              {%  if libro.sinopsis %}
+                <div class="cell large-9 callout alert">
+                  <p>{{ libro.sinopsis|safe }}</p>
+                </div>
+              {% endif %}
+            </td>
+            <td style="vertical-align: top;">
+              <ul>
+                {% for autor in libro.autores.all %}
+                  <li>{{ autor.nombre }} {{ autor.apellidos }}</li>
+                {% endfor %}
+              </ul>
+            </td>
+            <td style="vertical-align: top;">
+              <img src="{{ libro.portada.url }}" alt="{{ libro.titulo }}">
+              <br/><br/>
+              <span class="label warning" style="font-family: Cambria; font-size: 120%; padding-left: 10%; padding-right: 10%;">Ejemplares en stock:
+                  {{ libro.stock }}</span><br><br>
+                <a class="button success" href="{% url 'libro_app:lista_prestamos' libro.id %}">&nbsp;Préstamos&nbsp;&nbsp;</a>
+                <a class="button success" href="{% url 'libro_app:libro_editar' libro.id %}">&nbsp;Editar&nbsp;&nbsp;</a>
+                <a class="button alert" href="{% url 'libro_app:libro_borrar' libro.id %}">Eliminar</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+    Registrar nuevo autor
+{% endblock title %}
+
+{%  block content %}
+{%  include 'includes/header.html' %}
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x" style="background-color: #FFE4C4; width: 75%">
+        <h1>Registro de nuevo autor</h1>
+    </div>
+    <div class="grid-x grid-padding-x" style="background-color: #FFE4C4; width: 75%">
+        {%  include 'includes/formautor.html' %}
+    </div>
+</div>
+
+{% endblock content %}

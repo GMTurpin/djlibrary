@@ -1,0 +1,53 @@
+{% load static %}
+<div style="position:sticky; top:0; z-index:1000;">
+    <img src="{% static '/img/biblioteca2.jpg' %}" alt="Sistema de Biblioteca">
+</div>
+
+<div class="grid-x grid-margin-x">
+    <div class="cell large-12">
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                  <a href="{% url 'autor_app:index' %}"><strong>Inicio</strong></a>
+                </li>
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="#">Autores</a>
+                        <ul class="menu">
+                            <li><a href="{% url 'autor_app:nuevo_autor' %}">Nuevo</a></li>
+                            <li><a href="{% url 'autor_app:autores' %}">Lista</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="#">Libros</a>
+                        <ul class="menu">
+                            <li><a href="{% url 'libro_app:libro_nuevo' %}">Nuevo</a></li>
+                            <li><a href="{% url 'libro_app:libros' %}">Lista</a></li>
+                            <li><a href="{% url 'libro_app:libros_cat' %}">Por categoría</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="#">Lectores</a>
+                        <ul class="menu">
+                            <li><a href="{% url 'lector_app:nuevo_lector' %}">Nuevo</a></li>
+                            <li><a href="{% url 'lector_app:lectores' %}">Lista</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="#">Gestión de préstamos</a>
+                        <ul class="menu">
+                            <li><a href="{% url 'lector_app:add_prestamo' %}">Nuevo</a></li>
+                            <li><a href="{% url 'lector_app:multi_prestamo' %}">Préstamo multiple</a></li>
+                            <li><a href="{% url 'lector_app:control_prestamo' %}">Seguimiento</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </ul>
+          </div>
+        </div>
+    </div>
+</div>

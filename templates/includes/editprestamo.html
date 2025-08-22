@@ -1,0 +1,42 @@
+{% load static %}
+<form method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <div class="grid-x grid-margin-x">
+        <div class="cell large-4">
+            <div class="cell">
+                <label>Libro
+                    {{ form.libro }}
+                </label>
+            </div>
+            <div class="cell">
+                <label>Lector
+                    {{ form.lector }}
+                </label>
+            </div>
+        </div>
+        <div class="cell large-4">
+            <div class="cell">
+                <label>Fecha préstamo
+                    {{ form.fecha_prestamo }}
+                </label>
+            </div>
+            <div class="cell">
+                <label>Fecha devolucion
+                    {{ form.fecha_devolucion }}
+                </label>
+            </div>
+            <div class="cell">
+                <label>Vencimiento
+                    {{ form.vencimiento }}
+                </label>
+            </div>
+        </div>
+        <div class="cell large-4">
+            <div class="cell callout secondary">
+                 <img src="{% static '/img/registro.jpg' %}" alt="Interior de Biblioteca">
+            </div>
+            <div class="cell">
+                <button class="success button" type="submit">Actualizar</button>
+            </div>
+        </div>
+    </div>
+</form>

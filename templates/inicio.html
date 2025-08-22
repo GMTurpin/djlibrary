@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+  {% include 'includes/header.html' %}
+    <br/><br/>
+    <div class="grid-container" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        <div class="grid-x">
+            <div class="cell large-12 callout secondary">
+                  <h1 style="font-family: 'Blackadder ITC', serif; text-align: center">Bienvenido a la Biblioteca Parsifal</h1>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-6 callout primary">
+                  <p style="font-size: 110%; text-align: justify">Entre en nuestro sitio web y explore las diferentes opciones que le permitirán acceder a un extenso contenido de libros de
+                   diferentes autores y debidamente clasificados por categorías. <br><br>Compruebe online la disponibilidad de sus preferencias
+                      y gestione online sus peticiones. Las obras que no estén en nuestra biblioteca pueden en ocasiones ser solicitadas
+                      a otras bibliotecas y reservadas a su nombre, con el aviso oportuno cuando estén disponibles.
+                      <br><br>Que disfrute de descubrir nuevos horizontes a través de la lectura.</p>
+                </div>
+                <div class="cell large-6 callout secondary">
+                    <div class="card" style="width: 500px;">
+                      <div class="card-divider">
+                          <h4>Sala de Lectura</h4>
+                      </div>
+                           <img src="{% static '/img/lib-inside.jpg' %}" alt="Interior de Biblioteca">
+                      <div class="card-section">
+                        <p>Visite nuestra biblioteca en su ubicación física y admire su Sala de Lectura única en Europa.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell large-12 callout secondary"  style="text-align: center">
+                <h4 style="font-family: 'Baskerville Old Face', serif; color: #2754e6">Proyecto desarrollado por Gonzalo Moreno &copy;</h4>
+                <p style="font-family: 'Baskerville Old Face', serif; font-size: large; color: #2754e6">Agosto 2025</p>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

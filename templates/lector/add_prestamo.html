@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %} Registro de prestamo {% endblock %}
+
+{% block content %}
+    {%  include 'includes/header.html' %}
+<div class="grid-container" style="width: 50%; border-bottom-right-radius: 40px; border-top-right-radius: 10px; border-color: #570808">
+    <div class ="grid-x grid-padding-x" style="background-color: #FFE4C4">
+        <div class="cell large-12">
+            <h1>Registro de prestamo</h1>
+        </div>
+        <div class="cell large-12">
+            <div class="grid-x">
+                {%  include 'includes/formprestamo.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

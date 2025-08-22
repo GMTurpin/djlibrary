@@ -1,0 +1,35 @@
+<form class="cell grid-x grid-margin-x" method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <div class="cell large-6">
+        <label>Nombre
+            {{ form.nombre }}
+        </label>
+    </div>
+    <div class="cell large-6">
+        <label>Apellidos
+            {{ form.apellidos }}
+        </label>
+    </div>
+    <div class="cell large-6">
+        <label>Nacionalidad
+            {{ form.nacionalidad }}
+        </label>
+    </div>
+    <div class="cell large-6">
+        <label>Edad
+            {{ form.edad }}
+        </label>
+    </div>
+    <div class="cell large-6">
+        <label>Foto
+            {{ form.foto }}
+        </label>
+    </div>
+    <div class="cell large-6">
+        <label>Datos biográficos
+            {{ form.reseña }}
+        </label>
+    </div>
+    <div class="cell large-6">
+        <button class="success button" type="submit">Guardar</button>
+    </div>
+</form>

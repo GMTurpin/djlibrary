@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %} Lista de autores {% endblock title%}
+
+{% block content %}
+  {% include 'includes/header.html' %}
+
+<div class ="grid-x grid-margin-x" style="background-color: #FFE4C4">
+    <div class="cell large-7">
+        <h1>Catálogo de autores</h1>
+    </div>
+    <div class="cell large-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        <form class="cell grid-x grid-margin-x" style="margin-top:8%" method="GET">{% csrf_token %}
+            <div class="cell large-8">
+                <input type="text" id="kword" name="kword" placeholder="Buscar autor">
+            </div>
+            <div class="cell large-2">
+                <button class="success button" type="submit">Buscar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="grid-x grid-padding-x cell large-12" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+    <div class="cell large-12">
+        <table>
+            <thead>
+                <tr>
+                    <th>Indice</th>
+                    <th>Autor</th>
+                    <th>Nacionalidad</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+               {% for autor in lista_autores %}
+                <tr>
+                    <td>{{ autor.id }}</td>
+                    <td>{{ autor.nombre }} {{ autor.apellidos }}</td>
+                    <td>{{ autor.nacionalidad }}</td>
+                    <td><a class="button warning" href="{% url 'autor_app:autor_detalle' autor.id %}">Ficha</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <hr>
+        {% include 'includes/pagination.html' %}
+    </div>
+</div>
+
+{% endblock content %}

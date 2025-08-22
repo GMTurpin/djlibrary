@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %} Ficha de lector {% endblock %}
+
+{% block content %}
+    {%  include 'includes/header.html' %}
+<div class="grid-container">
+  <div class ="grid-x grid-margin-x" style="background-color: #e1c4ff">
+    <h1>Ficha de lector</h1>
+  </div>
+  <div class="cell callout grid-x grid-margin-x">
+    <div class="cell large-4">
+      <table>
+        <thead style="background-color: #FFD700">
+          <tr>
+            <th style="width: 45%">Datos del lector</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top">
+              <p><strong>Nombre: </strong>{{ lector.nombre }} {{ lector.apellidos }}</p>
+              <p><strong>Telefono: </strong>{{ lector.telefono }}</p>
+              <p><strong>Nacionalidad: </strong>{{ lector.nacionalidad }}</p>
+              <p><strong>Edad: </strong>{{ lector.edad }}</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a class="button success" href="{% url 'lector_app:lector_editar' lector.id %}">&nbsp;Editar&nbsp;&nbsp;</a>
+      <a class="button alert" href="{% url 'lector_app:lector_borrar' lector.id %}">Eliminar</a>
+    </div>
+    <div class="cell large-8">
+      <table>
+        <thead style="background-color: #FFD700">
+          <tr>
+            <th>Libros prestados</th>
+            <th>Fecha devuelto</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for unidad in libros_del_lector %}
+            <tr>
+                <td><i>{{ unidad.libro }}</i></td>
+                <td>{{ unidad.fecha_devolucion|default_if_none:"No devuelto" }}</td>
+                <td><a class="button warning" href="{% url 'lector_app:prestamo_update' unidad.id %}">Ficha</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DjangoLibrary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/settings/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/autor/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/autor/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/autor/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/lector/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/lector/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/lector/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/libro/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/libro/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/libro/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recortes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/autor/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/autor/lista.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/autor/new_autor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/autor/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/editprestamo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/formautor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/formlector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/formlibro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/formprestamo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/multiprestamo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/inicio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/add_multiprestamo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/add_prestamo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/delete_lector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/edit_lector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/ficha_lector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/fichas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/list_prestamos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/new_lector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/lector/update_prestamo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/delete_libro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/list_prestado.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/lista.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/lista_cats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/newbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/update_book.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2to8swPLemmWZp6cmCALaaPf0yL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DjangoLibrary/templates/libro&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DjangoLibrary\templates\libro" />
+      <recent name="C:\DjangoLibrary\templates\includes" />
+      <recent name="C:\DjangoLibrary\templates" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="" />
+      <created>1741007277166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741007277166</updated>
+      <workItem from="1741007278217" duration="924000" />
+      <workItem from="1741016753164" duration="4731000" />
+      <workItem from="1741125504914" duration="1925000" />
+      <workItem from="1741621845180" duration="3916000" />
+      <workItem from="1741637226119" duration="2097000" />
+      <workItem from="1741696054939" duration="9035000" />
+      <workItem from="1741719280735" duration="1613000" />
+      <workItem from="1741783089647" duration="93000" />
+      <workItem from="1741783730083" duration="7696000" />
+      <workItem from="1741886302882" duration="2551000" />
+      <workItem from="1741976796850" duration="4826000" />
+      <workItem from="1742041220453" duration="3409000" />
+      <workItem from="1742065293185" duration="3219000" />
+      <workItem from="1742068553241" duration="330000" />
+      <workItem from="1742117551490" duration="1056000" />
+      <workItem from="1742118668437" duration="848000" />
+      <workItem from="1742119545172" duration="3532000" />
+      <workItem from="1742123113376" duration="4200000" />
+      <workItem from="1742127348806" duration="981000" />
+      <workItem from="1742128342467" duration="712000" />
+      <workItem from="1742129066115" duration="715000" />
+      <workItem from="1742129793480" duration="8539000" />
+      <workItem from="1742210216436" duration="3605000" />
+      <workItem from="1742214812332" duration="1809000" />
+      <workItem from="1742237621954" duration="5071000" />
+      <workItem from="1742285583726" duration="1167000" />
+      <workItem from="1742301356224" duration="7952000" />
+      <workItem from="1742317287855" duration="1593000" />
+      <workItem from="1742386754276" duration="8037000" />
+      <workItem from="1742470812384" duration="13374000" />
+      <workItem from="1742544649091" duration="1519000" />
+      <workItem from="1742562269433" duration="5647000" />
+      <workItem from="1742587713942" duration="10798000" />
+      <workItem from="1742908403493" duration="10263000" />
+      <workItem from="1742928368779" duration="1179000" />
+      <workItem from="1742991141167" duration="3656000" />
+      <workItem from="1743012123021" duration="6361000" />
+      <workItem from="1743061965331" duration="5085000" />
+      <workItem from="1743100233725" duration="3569000" />
+      <workItem from="1743176979586" duration="2367000" />
+      <workItem from="1743179476703" duration="2420000" />
+      <workItem from="1743267709676" duration="5756000" />
+      <workItem from="1743279136395" duration="172000" />
+      <workItem from="1743518866278" duration="1320000" />
+      <workItem from="1743520277074" duration="30000" />
+      <workItem from="1743521592286" duration="30000" />
+      <workItem from="1743580997932" duration="51000" />
+      <workItem from="1743581819538" duration="187000" />
+      <workItem from="1743582020635" duration="333000" />
+      <workItem from="1743583459212" duration="3111000" />
+      <workItem from="1743586638027" duration="479000" />
+      <workItem from="1743603424376" duration="4435000" />
+      <workItem from="1743664917589" duration="683000" />
+      <workItem from="1743665645078" duration="1569000" />
+      <workItem from="1743692141064" duration="5192000" />
+      <workItem from="1743778335646" duration="2680000" />
+      <workItem from="1743787766459" duration="1838000" />
+      <workItem from="1743794060847" duration="1307000" />
+      <workItem from="1743838474194" duration="5928000" />
+      <workItem from="1743939218115" duration="2506000" />
+      <workItem from="1744011420962" duration="109000" />
+      <workItem from="1744012224955" duration="2273000" />
+      <workItem from="1744053474306" duration="1693000" />
+      <workItem from="1744096302635" duration="8188000" />
+      <workItem from="1744197425198" duration="17579000" />
+      <workItem from="1744231706519" duration="1819000" />
+      <workItem from="1744271366456" duration="620000" />
+      <workItem from="1744284939862" duration="10740000" />
+      <workItem from="1744393516550" duration="12000" />
+      <workItem from="1744393561915" duration="3414000" />
+      <workItem from="1744459297452" duration="6269000" />
+      <workItem from="1744475816268" duration="6000" />
+      <workItem from="1744726734729" duration="10715000" />
+      <workItem from="1745855518314" duration="730000" />
+      <workItem from="1753605809250" duration="223000" />
+      <workItem from="1753715887064" duration="2865000" />
+      <workItem from="1753885973513" duration="8235000" />
+      <workItem from="1753946776920" duration="1146000" />
+      <workItem from="1753958907710" duration="9713000" />
+      <workItem from="1753979334090" duration="527000" />
+      <workItem from="1754033020272" duration="886000" />
+      <workItem from="1754048242078" duration="6110000" />
+      <workItem from="1754075164470" duration="550000" />
+      <workItem from="1754075727210" duration="257000" />
+      <workItem from="1754076090403" duration="774000" />
+      <workItem from="1754119723516" duration="453000" />
+      <workItem from="1754145259629" duration="2073000" />
+      <workItem from="1754147363451" duration="311000" />
+      <workItem from="1754207777579" duration="6208000" />
+      <workItem from="1754289858339" duration="8000" />
+      <workItem from="1754290539138" duration="2079000" />
+      <workItem from="1754493504397" duration="10147000" />
+      <workItem from="1754514417235" duration="1867000" />
+      <workItem from="1754550976462" duration="1581000" />
+      <workItem from="1754582505715" duration="2339000" />
+      <workItem from="1754653037589" duration="5999000" />
+      <workItem from="1754723753645" duration="1374000" />
+      <workItem from="1754750047408" duration="1263000" />
+      <workItem from="1754819137473" duration="4950000" />
+      <workItem from="1754826558767" duration="140000" />
+      <workItem from="1755673434224" duration="6725000" />
+      <workItem from="1755701704145" duration="4533000" />
+      <workItem from="1755707232309" duration="666000" />
+      <workItem from="1755717242675" duration="1170000" />
+      <workItem from="1755769202534" duration="4538000" />
+      <workItem from="1755786084551" duration="5461000" />
+      <workItem from="1755843263023" duration="1815000" />
+      <workItem from="1755847936921" duration="10000" />
+      <workItem from="1755848186152" duration="22000" />
+      <workItem from="1755862981349" duration="978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="python-line">
+          <url>file://$PROJECT_DIR$/applications/libro/views.py</url>
+          <line>10</line>
+          <log-expression expression="def get_queryset(self):&#10;        word_clave = self.request.GET.get('kword', '')&#10;        ##fecha_desde&#10;        fdesde = self.request.GET.get('fecha_desde', '')&#10;        ##fecha-hasta&#10;        fhasta = self.request.GET.get('fecha_hasta', '')&#10;&#10;        if fdesde and fhasta:&#10;            return Libro.objects.listar_libros2(word_clave, fdesde, fhasta)&#10;        else:&#10;            return Libro.objects.listar_libros(word_clave)" language="Python" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

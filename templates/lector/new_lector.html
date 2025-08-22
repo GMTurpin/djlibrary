@@ -1,0 +1,19 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+    Registrar nuevo lector
+{% endblock title %}
+
+{%  block content %}
+{%  include 'includes/header.html' %}
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x" style="background-color: #FFE4C4; width: 70%" >
+        <h1>Registro de nuevo lector</h1>
+    </div>
+    <div class="grid-x grid-padding-x" style="background-color: #FFE4C4; width: 70%">
+        {%  include 'includes/formlector.html' %}
+    </div>
+</div>
+
+{% endblock content %}

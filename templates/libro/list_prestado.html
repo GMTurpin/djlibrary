@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %} Control de préstamos {% endblock %}
+
+{% block content %}
+    {%  include 'includes/header.html' %}
+
+<div class ="grid-x grid-margin-x" style="background-color: #FFE4C4">
+    <div class="cell large-12">
+        <h2>Historial de préstamos de &nbsp;&nbsp;<span style="color: #b61414">{{ libro }}</span></h2>
+    </div>
+</div>
+<div class="grid-x grid-padding-x cell large-12" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+  <div class="cell large-12">
+    <table>
+        <thead>
+            <tr>
+                <th>Fecha prestamo</th>
+                <th>Lector</th>
+                <th>Vencimiento</th>
+                <th>Fecha devuelto</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prestamo in historial %}
+            <tr>
+                <td>{{ prestamo.fecha_prestamo }}</td>
+                <td>{{ prestamo.lector }}</td>
+                <td>{{ prestamo.vencimiento }}</td>
+                <td>{{ prestamo.fecha_devolucion|default_if_none:"No devuelto" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+{% endblock content %}

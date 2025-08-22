@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %} Detalle del autor {% endblock %}
+
+{% block content %}
+    {%  include 'includes/header.html' %}
+
+<div class ="grid-x grid-margin-x" style="background-color: #e1c4ff">
+<h1>Información del autor</h1>
+</div>
+<div class="cell callout grid-x grid-margin-x">
+<div class="cell large-12">
+  <table>
+    <thead style="background-color: #FFD700">
+      <tr>
+        <th style="width: 35%">Datos del autor</th>
+        <th style="width: 50%">Obras en catálogo</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="vertical-align: top">
+          <p><strong>Nombre: </strong>{{ autor.nombre }} {{ autor.apellidos }}</p>
+          <p><strong>Nacionalidad: </strong>{{ autor.nacionalidad }}</p>
+          <p><strong>Edad: </strong>{{ autor.edad }}</p>
+          {% if autor.reseña %}
+            <div class="cell large-9 callout alert">
+              {{ autor.reseña|safe }}
+            </div>
+          {% endif %}
+        </td>
+        <td style="vertical-align: top">
+            <ul>
+            {% for obra in libros_del_autor %}
+                <li><i>{{ obra.titulo }}</i></li>
+            {% endfor %}
+            </ul>
+        </td>
+        <td style="vertical-align: top">
+          {% if autor.foto %}
+            <img src="{{ autor.foto.url }}" alt="{{ autor.nombre }}">
+          {% endif %}
+          <br/><br/>
+          <a class="button success" href="{% url 'autor_app:autor_editar' autor.id %}">&nbsp;Editar&nbsp;&nbsp;</a>
+          <a class="button alert" href="{% url 'autor_app:autor_borrar' autor.id %}">Eliminar</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+{% endblock %}

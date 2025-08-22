@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %} Lista de libros por categoría {% endblock %}
+
+{% block content %}
+    {%  include 'includes/header.html' %}
+<div class ="grid-x grid-margin-x" style="background-color: #FFE4C4">
+    <div class="cell large-8">
+        <h1>Lista de libros por categoría</h1>
+    </div>
+    <div class="cell large-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        <form class="grid-x grid-margin-x" style="margin-top:8%" method="GET">{% csrf_token %}
+            <div class="cell large-7">
+                <select id="kword" name="kword">
+                    <option value="0">Todas</option>
+                    {% for cat in box_cats %}
+    -                      <option value="{{ cat.nombre }}">{{ cat.nombre }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="cell large-2">
+                <button class="success button" type="submit">Listar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="grid-x grid-padding-x cell large-12" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+    <div class="cell large-12">
+        <table>
+            <thead>
+                <tr>
+                    <th>Indice</th>
+                    <th>Titulo</th>
+                    <th>Categoria</th>
+                    <th>Fecha publicacion</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in lista_cats %}
+                <tr>
+                    <td>{{ book.id }}</td>
+                    <td>{{ book.titulo }}</td>
+                    <td>{{ book.categoria }}</td>
+                    <td>{{ book.fecha_publicacion }}</td>
+                    <td><a class="button warning" href="{% url 'libro_app:libro_detalle' book.id %}">Ver</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <hr>
+        {% include 'includes/pagination.html' %}
+    </div>
+</div>
+
+{% endblock content %}

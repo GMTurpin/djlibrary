@@ -1,0 +1,19 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+    Modificar datos de lector
+{% endblock title %}
+
+{%  block content %}
+{%  include 'includes/header.html' %}
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x" style="background-color: #FFE4C4">
+        <h1 class="cell">Modificar datos de lector</h1>
+    </div>
+    <div class="cell callout">
+    {%  include 'includes/formlector.html' %}
+    </div>
+</div>
+
+{% endblock content %}
