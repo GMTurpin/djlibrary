@@ -5,58 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoLibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/settings/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/autor/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/autor/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/autor/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/lector/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/lector/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/lector/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/libro/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/libro/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/libro/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recortes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/autor/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/autor/lista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/autor/new_autor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/autor/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/editprestamo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/formautor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/formlector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/formlibro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/formprestamo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/multiprestamo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/inicio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/add_multiprestamo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/add_prestamo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/delete_lector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/edit_lector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/ficha_lector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/fichas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/list_prestamos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/new_lector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lector/update_prestamo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/delete_libro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/list_prestado.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/lista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/lista_cats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/newbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/update_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -97,7 +48,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/DjangoLibrary/templates/libro&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -242,6 +193,8 @@
       <workItem from="1755847936921" duration="10000" />
       <workItem from="1755848186152" duration="22000" />
       <workItem from="1755862981349" duration="978000" />
+      <workItem from="1755934057362" duration="787000" />
+      <workItem from="1756022121249" duration="7157000" />
     </task>
     <servers />
   </component>

@@ -21,7 +21,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_filters',
     'django_prose_editor',
     'django.contrib.postgres',
     'applications.autor.apps.AutorConfig',
