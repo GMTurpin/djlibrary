@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gunicorn_start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +196,10 @@
       <workItem from="1755862981349" duration="978000" />
       <workItem from="1755934057362" duration="787000" />
       <workItem from="1756022121249" duration="7157000" />
+      <workItem from="1756031871039" duration="2983000" />
+      <workItem from="1756132937908" duration="117000" />
+      <workItem from="1756136919382" duration="58000" />
+      <workItem from="1756137543826" duration="633000" />
     </task>
     <servers />
   </component>
