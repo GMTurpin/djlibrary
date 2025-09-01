@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gunicorn_start" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pg_hba.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgresql.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervisor.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +201,13 @@
       <workItem from="1756132937908" duration="117000" />
       <workItem from="1756136919382" duration="58000" />
       <workItem from="1756137543826" duration="633000" />
+      <workItem from="1756221495141" duration="1137000" />
+      <workItem from="1756223257336" duration="1263000" />
+      <workItem from="1756224776780" duration="2897000" />
+      <workItem from="1756296458180" duration="799000" />
+      <workItem from="1756305826836" duration="4513000" />
+      <workItem from="1756632247518" duration="2145000" />
+      <workItem from="1756666782540" duration="2280000" />
     </task>
     <servers />
   </component>
