@@ -4,7 +4,7 @@ from .base import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['178.128.34.140']
+ALLOWED_HOSTS = ['165.22.94.230']
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
@@ -17,7 +17,7 @@ DATABASES = {
         'NAME': 'dblibros',
         'USER': 'gmoreno',
         'PASSWORD': 'libgmt',
-        'HOST': '178.128.34.140',
+        'HOST': '165.22.94.230',
         'PORT': '5432',
     }
 }

@@ -1,5 +1,6 @@
 from django.db import models
 from django_prose_editor.fields import ProseEditorField
+from django_prose_editor.sanitized import SanitizedProseEditorField
 from .managers import AutorManager
 
 # Create your models here.

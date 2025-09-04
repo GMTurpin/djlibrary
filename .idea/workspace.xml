@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nginx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pg_hba.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgresql.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supervisor.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/autor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/autor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/libro/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recortes" beforeDir="false" afterPath="$PROJECT_DIR$/recortes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +210,10 @@
       <workItem from="1756305826836" duration="4513000" />
       <workItem from="1756632247518" duration="2145000" />
       <workItem from="1756666782540" duration="2280000" />
+      <workItem from="1756739943973" duration="827000" />
+      <workItem from="1756742506019" duration="590000" />
+      <workItem from="1756749087741" duration="3826000" />
+      <workItem from="1756998826235" duration="611000" />
     </task>
     <servers />
   </component>

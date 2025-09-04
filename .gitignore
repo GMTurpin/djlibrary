@@ -1,0 +1,6 @@
+.qsyncclient/
+*.txt
+gunicorn_start
+*.conf
+recortes
+**/migrations
