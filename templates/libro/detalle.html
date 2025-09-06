@@ -38,7 +38,7 @@
               </ul>
             </td>
             <td style="vertical-align: top;">
-              <img src="{{ libro.portada.url }}" alt="{{ libro.titulo }}">
+              <img src="{{ MEDIA_URL }}{{ libro.portada.url }}" alt="{{ libro.titulo }}">
               <br/><br/>
               <span class="label warning" style="font-family: Cambria; font-size: 120%; padding-left: 10%; padding-right: 10%;">Ejemplares en stock:
                   {{ libro.stock }}</span><br><br>
