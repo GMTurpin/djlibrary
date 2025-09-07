@@ -5,77 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/AlHuxley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/AlHuxley.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/AlfGonzalez.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/AlfGonzalez.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/AndRoberts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/AndRoberts.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/BObama.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/BObama.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/Camilo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/Camilo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/ChufoLL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/ChufoLL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/FForsyth.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/FForsyth.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/IhmAhmad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/IhmAhmad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/IldFalcones.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/IldFalcones.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/Isabel_Allende.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/Isabel_Allende.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/JLCarre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/JLCarre.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/JeffArcher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/JeffArcher.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/John_Grisham.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/John_Grisham.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/Julia_Navarro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/Julia_Navarro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/KenFollet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/KenFollet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/LZueco.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/LZueco.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/NMandela.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/NMandela.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/RBradbury.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/RBradbury.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/RLudlum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/RLudlum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/RobCook.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/RobCook.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/Theresa_Breslin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/fotos/Theresa_Breslin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gunicorn_start" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pg_hba.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/50_algoritmos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/50_algoritmos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Anestesia_letal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Anestesia_letal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Churchill.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Churchill.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Dispara.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Dispara.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Doble_juego.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Doble_juego.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/ElZorro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/ElZorro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_impostor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_impostor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_informe_pelicano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_informe_pelicano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_intruso.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_intruso.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_invierno_del_mundo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_invierno_del_mundo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_legado_de_los_espias.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_legado_de_los_espias.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_mapa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_mapa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_niño_que_perdió_la_guerra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_niño_que_perdió_la_guerra.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_tablero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_tablero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_ultimo_testigo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_ultimo_testigo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_ultimo_testigo_DHPImer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_ultimo_testigo_DHPImer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/El_umbral.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/El_umbral.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/En_el__amor_y_la_guerra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/En_el__amor_y_la_guerra.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Fahrenheit_451.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Fahrenheit_451.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Historia_de_un_canalla.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Historia_de_un_canalla.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/La_armadura_de_la_luz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/La_armadura_de_la_luz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/La_caida_de_los_gigantes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/La_caida_de_los_gigantes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/La_catedral_del_mar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/La_catedral_del_mar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/La_lista_del_juez.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/La_lista_del_juez.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/La_vida_que_nos_separa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/La_vida_que_nos_separa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Leyjustos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Leyjustos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Los_Herederos_de_la_Tierra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Los_Herederos_de_la_Tierra.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Los_pecados_del_padre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Los_pecados_del_padre.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Manifiesto_Negro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Manifiesto_Negro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Mi_pais.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Mi_pais.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Mujeres.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Mujeres.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Nelson_Mandela.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Nelson_Mandela.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Obama.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Obama.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Pal_y_algoritmos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Pal_y_algoritmos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Programacion_en_C.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Programacion_en_C.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Solo_el_tiempo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Solo_el_tiempo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Te_dare_la_tierra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Te_dare_la_tierra.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Un_espía_perfecto.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Un_espía_perfecto.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Un_mundo_feliz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Un_mundo_feliz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portadas/Un_traidor_como_los_nuestros.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/portadas/Un_traidor_como_los_nuestros.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgresql.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisor.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/autor/vista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/libro/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "assignee": "GMTurpin",
+      "author": "GMTurpin"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GMTurpin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GMTurpin/djlibrary.git",
+    "accountId": "6855f1b3-18a8-4c63-866a-70234a03d2a8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -108,26 +58,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/DjangoLibrary/media",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DjangoLibrary/media&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\DjangoLibrary\templates\libro" />
@@ -290,6 +240,7 @@
       <workItem from="1757170948091" duration="19000" />
       <workItem from="1757172053848" duration="908000" />
       <workItem from="1757173764223" duration="951000" />
+      <workItem from="1757231563108" duration="400000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 .qsyncclient/
+./pictures
+./rostros
 *.txt
-gunicorn_start
 *.conf
 recortes
 **/migrations
