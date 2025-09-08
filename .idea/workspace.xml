@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/autor/vista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libro/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,25 +30,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "assignee": "GMTurpin",
-      "author": "GMTurpin"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;GMTurpin&quot;,
+      &quot;author&quot;: &quot;GMTurpin&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GMTurpin"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GMTurpin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GMTurpin/djlibrary.git",
-    "accountId": "6855f1b3-18a8-4c63-866a-70234a03d2a8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GMTurpin/djlibrary.git&quot;,
+    &quot;accountId&quot;: &quot;6855f1b3-18a8-4c63-866a-70234a03d2a8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -241,6 +243,11 @@
       <workItem from="1757172053848" duration="908000" />
       <workItem from="1757173764223" duration="951000" />
       <workItem from="1757231563108" duration="400000" />
+      <workItem from="1757270824935" duration="28000" />
+      <workItem from="1757270927345" duration="387000" />
+      <workItem from="1757271667824" duration="972000" />
+      <workItem from="1757323358298" duration="3661000" />
+      <workItem from="1757327227674" duration="135000" />
     </task>
     <servers />
   </component>

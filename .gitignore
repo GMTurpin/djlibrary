@@ -3,5 +3,6 @@
 ./rostros
 *.txt
 *.conf
+*.docx
 recortes
 **/migrations
