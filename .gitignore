@@ -1,8 +1,12 @@
 .qsyncclient/
-./pictures
-./rostros
+pictures
+rostros
 *.txt
 *.conf
 *.docx
-recortes
-**/migrations
+/recortes
+autor/migrations
+home/migrations
+lector/migrations
+libro/migrations
+/sync.ffs_lock

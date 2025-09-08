@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="">
+    <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="2º cambio desde local">
+      <change afterPath="$PROJECT_DIR$/applications/autor/migrations/0004_merge_0002_autor_reseña_0003_alter_autor_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/autor/migrations/0005_alter_autor_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/lector/migrations/0004_merge_20250901_2212.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/libro/migrations/0006_merge_20250901_2212.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/autor/vista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/libro/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,11 +250,26 @@
       <workItem from="1757271667824" duration="972000" />
       <workItem from="1757323358298" duration="3661000" />
       <workItem from="1757327227674" duration="135000" />
+      <workItem from="1757327481852" duration="2210000" />
     </task>
+    <task id="LOCAL-00001" summary="cambios desde local">
+      <option name="closed" value="true" />
+      <created>1757328032831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757328032831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cambios desde local" />
+    <MESSAGE value="2º cambio desde local" />
+    <option name="LAST_COMMIT_MESSAGE" value="2º cambio desde local" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
