@@ -23,7 +23,7 @@ class Persona(models.Model):
 
 class Autor(Persona):
     seudonimo = models.CharField('Seudónimo', max_length=50, blank=True, null=True)
-    foto = models.ImageField(upload_to='fotos/', blank=True, null=True)
+    foto = models.ImageField(upload_to='fotos', blank=True, null=True)
     reseña = ProseEditorField(blank=True, null=True)
     objects = AutorManager()
 

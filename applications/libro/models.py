@@ -26,7 +26,7 @@ class Libro(models.Model):
     autores = models.ManyToManyField(Autor)
     fecha_publicacion = models.DateField(verbose_name='Fecha de publicacion')
     sinopsis = ProseEditorField(blank=True, null=True)
-    portada = models.ImageField(upload_to='portadas/', blank=True, null=True)
+    portada = models.ImageField(upload_to='portadas', blank=True, null=True)
     visitas = models.PositiveIntegerField(default=0)
     stock = models.PositiveIntegerField(default=0)
     objects = LibroManager()

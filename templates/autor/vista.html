@@ -39,7 +39,7 @@
         </td>
         <td style="vertical-align: top">
           {% if autor.foto %}
-            <img src="{{ MEDIA_URL }}{{ autor.foto.url }}" alt="{{ autor.nombre }}">
+            <img src="{{ autor.foto.url }}" alt="{{ autor.nombre }}">
           {% endif %}
           <br/><br/>
           <a class="button success" href="{% url 'autor_app:autor_editar' autor.id %}">&nbsp;Editar&nbsp;&nbsp;</a>
