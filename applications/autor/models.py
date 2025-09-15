@@ -1,6 +1,9 @@
+import os
+
+from django.core.files.storage import FileSystemStorage
 from django.db import models
 from django_prose_editor.fields import ProseEditorField
-from django_prose_editor.sanitized import SanitizedProseEditorField
+
 from .managers import AutorManager
 
 # Create your models here.
@@ -20,7 +23,7 @@ class Persona(models.Model):
 
 class Autor(Persona):
     seudonimo = models.CharField('Seudónimo', max_length=50, blank=True, null=True)
-    foto = models.ImageField(upload_to='fotos', blank=True, null=True)
+    foto = models.ImageField(upload_to='fotos/', blank=True, null=True)
     reseña = ProseEditorField(blank=True, null=True)
     objects = AutorManager()
 

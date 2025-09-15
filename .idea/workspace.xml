@@ -6,70 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="2º cambio desde local">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/AlfGonzalez.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/AndRoberts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/BObama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/Camilo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/ChufoLL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/FForsyth.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/IhmAhmad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/IldFalcones.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/Isabel_Allende.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/JLCarre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/JeffArcher.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/John_Grisham.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/Julia_Navarro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/KenFollet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/LZueco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/MStrukul.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/MStrukul_5GTJkVf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/NMandela.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/RBradbury.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/RLudlum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/RobCook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/Theresa_Breslin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/50_algoritmos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Churchill.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Dispara.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Doble_juego.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/ElZorro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_impostor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_informe_pelicano.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_intruso.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_invierno_del_mundo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_legado_de_los_espias.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_mapa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_niño_que_perdió_la_guerra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_tablero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_ultimo_testigo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_ultimo_testigo_DHPImer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/El_umbral.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/En_el__amor_y_la_guerra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Fahrenheit_451.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Historia_de_un_canalla.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/La_armadura_de_la_luz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/La_caida_de_los_gigantes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/La_catedral_del_mar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/La_lista_del_juez.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/La_vida_que_nos_separa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Leyjustos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Los_Herederos_de_la_Tierra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Los_pecados_del_padre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Manifiesto_Negro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Medici.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Mi_pais.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Mujeres.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Nelson_Mandela.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Obama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Pal_y_algoritmos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Programacion_en_C.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Solo_el_tiempo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Te_dare_la_tierra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Un_espía_perfecto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Un_mundo_feliz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Un_traidor_como_los_nuestros.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/autor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/libro/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/autor/vista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libro/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +80,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -315,6 +258,12 @@
       <workItem from="1757530487993" duration="1150000" />
       <workItem from="1757688179390" duration="3515000" />
       <workItem from="1757746817721" duration="397000" />
+      <workItem from="1757748205364" duration="842000" />
+      <workItem from="1757778110158" duration="1443000" />
+      <workItem from="1757841023582" duration="9172000" />
+      <workItem from="1757850607172" duration="198000" />
+      <workItem from="1757928170682" duration="192000" />
+      <workItem from="1757935987076" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="cambios desde local">
       <option name="closed" value="true" />
