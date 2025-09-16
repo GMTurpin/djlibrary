@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="2º cambio desde local">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/libro/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
-    </list>
+    <list default="true" id="2ccf42a9-0ee4-4d52-b1ba-61b6d32531fc" name="Changes" comment="2º cambio desde local" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -266,6 +261,7 @@
       <workItem from="1757963881533" duration="156000" />
       <workItem from="1757964117642" duration="414000" />
       <workItem from="1758006295231" duration="8000" />
+      <workItem from="1758006481432" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="cambios desde local">
       <option name="closed" value="true" />
