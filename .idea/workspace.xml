@@ -8,11 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/local.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/autor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/libro/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fotos/AlHuxley.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portadas/Anestesia_letal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/autor/vista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/vista.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/libro/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,6 +261,11 @@
       <workItem from="1757928170682" duration="192000" />
       <workItem from="1757935987076" duration="537000" />
       <workItem from="1757937099073" duration="976000" />
+      <workItem from="1757947762085" duration="2576000" />
+      <workItem from="1757959425043" duration="347000" />
+      <workItem from="1757963881533" duration="156000" />
+      <workItem from="1757964117642" duration="414000" />
+      <workItem from="1758006295231" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="cambios desde local">
       <option name="closed" value="true" />
