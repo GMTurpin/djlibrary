@@ -12,16 +12,18 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+#Configuracion para servidor HOSTINGER
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'dblibros',
         'USER': 'gmoreno',
         'PASSWORD': 'libgmt',
-        'HOST': '165.22.94.230',
+        'HOST': '72.60.132.177',
         'PORT': '5432',
     }
 }
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/

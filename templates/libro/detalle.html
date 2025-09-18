@@ -39,7 +39,7 @@
             </td>
             <td style="vertical-align: top;">
               {% if libro.portada %}
-                <img src="/media/{{ libro.portada.url }}" alt="{{ autor.nombre }}">
+                <img src="{{ libro.portada.url }}" alt="{{ autor.nombre }}">
               {% endif %}
               <br/><br/>
               <span class="label warning" style="font-family: Cambria; font-size: 120%; padding-left: 10%; padding-right: 10%;">Ejemplares en stock:
